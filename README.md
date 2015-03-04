@@ -2,7 +2,7 @@
 	CipherPixel © All Rights Reserved
 ---------------------------------------------------
         CP-Core and CP-Admin
-	by cipherpixel.net - Modified by: notiobb.com
+	by cipherpixel.net - Modified by: notionbb.com
 ---------------------------------------------------
 	@author		Michael Benner
 	@date		December 02, 2014
@@ -13,6 +13,7 @@
 -----------------------------------
 
 Copyright 2014 Michael Benner
+Modified by: NotionBB
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
