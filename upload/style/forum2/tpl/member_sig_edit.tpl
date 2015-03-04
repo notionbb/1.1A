@@ -1,0 +1,1 @@
+	<div class="div-editor-margin"><textarea name="editor" class="editor_wait" id="editor_new">{$display->vars['quick_var']}</textarea></div>

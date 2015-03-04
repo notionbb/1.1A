@@ -1,0 +1,1153 @@
+html,body {
+	height: 100%;
+}
+
+body {
+	overflow-y: scroll;
+	margin: 0px;
+	padding: 0px;
+	font: normal 14px helvetica, arial, sans-serif;
+	color: #616466;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+	height: 0px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cent {
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
+
+/**------------------------------------------**
+ *	CP Feel
+***------------------------------------------*/
+
+.cptitle {
+	color: #46A33E;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.userinfo {
+	line-height: 30px;
+	text-align: right;
+	color: #46A33E;
+	font-size: 12px;
+	text-align: right;
+}
+
+/* Sexy Images */
+.imghigh {
+	padding: 0px 2px 0px 2px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.imghigh:hover {
+	opacity: 1; 
+}
+
+/**------------------------------------------**
+ *	CP Buttons
+***------------------------------------------*/
+
+.but {
+	cursor: pointer;
+	padding: 4px 10px 4px 10px;
+	border-radius: 3px;	
+	text-decoration: none;
+}
+
+.butbelow {
+	cursor: pointer;
+	padding: 3px 6px 3px 6px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	font-size: 13px;
+}
+
+.butonly {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.margin {
+	margin: 0 10px 0 10px;
+}
+
+.marginleft {
+	margin: 0 0px 0 50px;
+}
+.marginright {
+	margin: 0 50px 0 0px;
+}
+
+.green {
+	color: #fff;
+	background: #469946;
+}
+
+.green:hover {
+	color: #fff;
+	background: #4C7A4C;
+}
+
+.tabscroll {
+	font-size: 12px;
+	background: #AE432E;
+}
+
+.grey {
+	background: #2D2D2D;
+	border: 1px solid #2D2D2D;
+	color: #FFF;
+}
+
+.grey:hover {
+	background: #545454;
+	color: #FFF;
+}
+
+.red {
+	background: #9E100C;
+	border: 1px solid #9E100C;
+	color: #FFF;
+}
+
+.red:hover {
+	background: #B83734;
+}
+
+.but-medium {
+	border: 1px solid #C7C7C7;
+	border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+	background: #eeeeee;
+	color: #8F8F8F;
+	box-shadow: 0 6px 6px -6px #999999;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+
+.but-medium:hover {
+	border: 1px solid #8E8E8E;
+	color: #8E8E8E;
+	text-decoration: none;
+}
+
+.but-marg {
+	margin-left: 5px;
+}
+
+/**------------------------------------------**
+ *	Page Construction
+***------------------------------------------*/
+
+.header {
+	background-color: #DEDEDF;
+	padding: 5px 20px 5px 20px;
+}
+
+.content {
+	width: 76%;
+	padding: 1% 2% 1% 2%;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+/**------------------------------------------**
+ *	Navbar
+***------------------------------------------*/
+
+.nav {
+	position: absolute;
+	height: 100%;
+	width: 20%;
+	background-color: #E6E6E6;
+	box-shadow: inset -2px 0px 5px 0px rgba(197,197,197,1);
+}
+
+.nav .nav_header {
+	font-size: 30px;
+	padding: 15px 0px 15px 20px;
+	color: #616161;
+}
+
+.nav .nav_user {
+	background: #D9D9D9;
+	padding: 20px;
+	box-shadow: inset 0 0 10px #C5C5C5;
+}
+
+.nav .nav_ava {
+	float: left;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid #999999;
+}
+
+.nav .nav_ava img {
+	height: 50px;
+	width: 50px;
+}
+
+.nav .nav_user_info {
+	float: left;
+	color: #616466;
+	margin-left: 10px;
+}
+
+.nav .nav_user_name {
+	font-weight: bold;
+}
+
+.nav .nav_user_group {
+	font-size: 12px;
+	font-style: italic;
+	padding: 3px 0px 3px 0px;
+}
+
+.nav .nav_user_buts {
+	margin-top: 4px;
+	padding: 2px 0px 2px 0px;
+}
+
+.nav .user_but {
+	font-size: 12px;
+	background: #AE432E;
+	padding: 3px 6px 3px 6px;
+	border-radius: 5px;
+	margin-right: 3px;
+	text-decoration: none;
+	color: #fff;
+}
+.nav .user_but:hover {
+	background-color: #C45A45;
+}
+
+.nav .nav_items {
+	padding-top: 10px;
+	color: #616466;
+	border-bottom: 1px solid #D1D1D1;
+}
+
+.nav .nav_item {
+	padding: 10px 15px 10px 15px;
+	border-top: 1px solid #D1D1D1;	
+}
+
+.nav .nav_title {
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.nav .nav_title img {
+	margin-bottom: -2px;
+	margin-right: 5px;
+}
+
+.nav .box_hide {
+	display: none;
+	padding: 2px 0 2px 30px;
+}
+
+.nav .nav_item a {
+	display: block;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: inherit;
+}
+
+.nav .nav_item a:hover {
+	color: #454647;
+}
+
+/**------------------------------------------**
+ *	Navtree and Content
+***------------------------------------------*/
+
+.content .navtree {
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #91949B;
+}
+
+.content .navtree a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.content .navtree a:hover {
+	text-decoration: underline;
+}
+
+.content .title {
+	font-size: 30px;
+	color: #616664;
+}
+
+/*------------------------------------------
+	Caution and Tips
+------------------------------------------*/
+
+.caution {
+	background: #E09D9D;
+	border: 1px solid #CC1616;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 15px;
+	padding: 20px;
+	width: 60%;
+}
+
+.caution a {
+	color: #fff;
+}
+
+.caution .tits {
+	font-weight: bold;
+}
+
+.caution .message {
+}
+
+.help {
+	color: #fff;
+	background: #7591FF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 35px;
+	padding: 20px;
+	width: 75%;
+}
+
+.help .tits {
+	font-weight: bold;
+}
+
+.help .message {
+}
+
+/**------------------------------------------**
+ *	cptable
+***------------------------------------------*/
+
+.cptable {
+	border: 1px solid #D1D1D1;
+	background: #F2F2F2;
+	margin-top: 10px;
+}
+
+.cptable table {
+	width: 100%;
+}
+
+.cptable tr {
+}
+
+.cptable td {
+	padding: 15px;
+}
+
+.cptable-small td {
+	padding: 5px 2px 5px 2px;
+}
+
+.cptable .cent {
+	text-align: center;
+}
+
+.cptable .tdTit {
+	text-transform: uppercase;
+	color: #91949B;	
+}
+
+.cptable .avatar {
+	text-align: center;
+}
+
+.cptable .avatar img {
+	max-width: 50px;
+	max-height: 50px;
+	box-shadow: 0 8px 6px -6px #999999;
+	border:1px solid #CCCCCC;
+}
+
+/**------------------------------------------**
+ *	schema_table
+***------------------------------------------*/
+
+.schema_table {
+	background: #fff;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.schema_table table {
+	width: 100%;
+}
+
+.schema_table tr {
+}
+
+.schema_table td {
+	padding: 2px;
+}
+
+.schema_table .sch_title {
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.schema_table select {
+	width: 230px;
+	padding: 8px;
+}
+
+.schema_table .submitDiv {
+	padding: 5px 0 5px 0;
+	text-align: center;
+}
+
+
+/**------------------------------------------**
+ *	Gen Div
+***------------------------------------------*/
+
+.gendiv {
+	background: #fff;
+	margin-top: 10px;
+	padding: 20px;
+}
+
+.gendivsmall {
+	width: 50%;
+	margin: 10px auto 0 auto;
+}
+
+.gendiv .title {
+	text-align: center;
+}
+
+.gendiv .cent {
+	text-align: center;
+}
+
+.gendiv .memsearch {
+	width: 300px;
+	height: 15px;
+	padding: 5px 6px 5px 6px;
+	margin-top: 6px;
+}
+
+.gendiv .div {
+	margin-top: 15px;
+}
+
+.gendiv .mod_report {
+	margin: 5px auto 5px auto;
+	border: 1px solid;
+	text-align: center;
+	border: 1px solid #BCCACA;
+	background: #ECF4F4;
+	padding: 10px;
+}
+
+/**------------------------------------------**
+ *	Gen Table // Really a setting table
+***------------------------------------------*/
+
+.gentable {
+	margin-top: 10px;
+	border: 1px solid #D1D1D1;
+	background-color: #F2F2F2;
+}
+
+.notopb {
+	border-top: 0;
+}
+
+.tabs {
+	background-color: #469946;
+	padding: 5px 0 0 5px;
+	margin-bottom: -10px;
+	margin-top: 10px;
+}
+
+.tabs .tabrow {
+	display: block;
+	float: left;
+	background-color: #F2F2F2;
+	margin-right: 8px;
+	cursor: pointer;
+	padding: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+
+.tabs .tabrow span {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 2px solid #F2F2F2;
+}
+
+.tabs .tabrow span:hover {
+	border-bottom: 2px solid #D1D1D1;
+}
+
+.tabs .tabrow .selected {
+	border-bottom: 2px solid #D1D1D1;
+}
+
+.gentable .hold {
+}
+
+.gentable .main {
+	display: table;
+	width: 100%;
+}
+
+.gentable .row {
+	display: table-row;
+}
+
+.gentable .tits {
+	text-transform: uppercase;
+	color: #91949B;
+}
+
+.gentable .rowhide {
+	display: none;
+}
+
+.gentable .cell {
+	display: table-cell;
+	padding: 15px 20px 15px 20px;
+}
+
+.gentable .left_cell {
+	width: 200px;
+	text-align: right;
+}
+
+.gentable .cell_span {
+	display: table-cell;
+	-webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
+
+.gentable .padfixT {
+	padding-bottom: 0px;
+}
+
+.gentable .padfixB {
+	padding-top: 0px;
+}
+
+.gentable .vt {
+	vertical-align: top;
+}
+
+.gentable .vm {
+	vertical-align: middle;
+}
+
+.gentable .expand {
+	width: 99%;
+}
+
+.gentable .nowhite {
+	white-space: nowrap
+}
+
+.gentable .subcat {
+	font-size: 18px;
+	margin: 5px 5px 0px 5px;
+	padding: 8px 12px 8px 12px;
+}
+
+.gentable .subcat span {
+	margin-left: 25px;
+	background: #F2F2F2;
+	padding: 0 15px 0 15px;
+}
+
+
+.gentable .subcat .back {
+	border-top: 2px solid #63666D;
+	height: 0px;
+	margin-top: -12px;
+	z-index: -1;
+}
+
+.gentable .set_tit {
+	color: #63666D;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.gentable .set_desc {
+	font-size: 11px;
+	color: #858585;
+	margin-top: 10px;
+}
+
+.gentable .set_desc_no_marg {
+	font-size: 11px;
+	color: #858585;
+}
+
+.gensmall .set_desc {
+	margin-top: 2px;
+}
+
+.gentable .field {
+	padding: 5px 6px 5px 6px;
+	width: 300px;
+	margin-bottom: 4px;
+	font-size: 13px;
+}
+
+.gensmall .field {
+	width: 150px;
+}
+
+.gentable .area {
+	padding: 4px 6px 4px 6px;
+	width: 300px;
+	height: 70px;
+}
+
+.gentable .large_area {
+	padding: 4px 6px 4px 6px;
+	width: 90%;
+	margin-left: 10px;
+	height: 300px;
+}
+
+.gentable .drop {
+	padding: 5px 6px 5px 6px;
+	width: 300px;
+	margin-bottom: 4px;
+	font-size: 13px;
+}
+
+.gensmall .drop {
+	width: 150px;
+}
+
+.buttonRow {
+	margin: 5px auto 5px auto;
+	text-align: center;
+}
+
+.gentable .submitDiv {
+	padding: 5px 0 5px 0;
+	text-align: center;
+}
+
+.glotable table {
+	width: 100%;
+}
+
+.glotable tr {
+}
+
+.glotable td {
+	padding: 10px 15px 10px 15px;
+	color: #858585;
+}
+
+.glotable a {
+	font-weight: bold;
+	color: #63666D;
+	text-decoration: none;
+}
+
+.glotable a:hover {
+	text-decoration: underline;
+}
+
+.glotable .icon {
+	padding-right: 0px;
+}
+
+/**------------------------------------------**
+ *	Generic table (small!) modifiers
+***------------------------------------------*/
+
+.gensmall {
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gensmall .field {
+	width: 150px;
+}
+
+.gensmall .drop {
+	width: 150px;
+}
+
+.gensmall .cell {
+	padding: 10px 15px 10px 15px;
+}
+
+/**------------------------------------------**
+ *	Perm Table v3
+***------------------------------------------*/
+
+.perm_hold {
+	padding: 5px;
+}
+
+.perm {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background: #F2F2F2;
+	border-collapse: collapse;
+}
+
+.permsmall {
+	width: 85%;
+	border: 1px solid #E6E6E6;
+}
+
+.perm .buts {
+	text-align: center;
+	height: 30px;
+}
+
+.perm .buts div {
+	display: inline-block;
+	border: 1px solid #C7C7C7;
+	background: #EFEFEF;
+	height: 12px;
+	color: #B1B1B1;
+	border-radius: 2px;
+	padding: 2px 2px 5px 2px;
+	width: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+.perm .buts div:hover {
+	background: #E1E1E1;
+}
+
+.perm .catcell {
+	text-transform: uppercase;
+	color: #94919B;
+	background: #F2F2F2;
+	border-top: 1px solid #E6E6E6;
+	height: 32px;
+	padding-left: 5px;
+}
+
+.perm .notop {
+	border-top: 0px;
+}
+
+.perm .forcell {
+	padding: 8px 0px 8px 15px;
+}
+
+.perm .red_cell {
+	background: #F6EFEF;
+	font-size: 11px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.perm .yel_cell {
+	background: #FAF8DC;
+	font-size: 11px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.perm .gre_cell {
+	background: #E4F7E1;
+	font-size: 11px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.perm .blu_cell {
+	background: #EDEDFA;
+	font-size: 11px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.perm .ora_cell {
+	background: #F7EBD7;
+	font-size: 11px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+/**------------------------------------------**
+ *	Cat Table
+***------------------------------------------*/
+
+.cat {
+	margin-top: 10px;
+	width: 100%;
+	display: table;
+	border: 1px solid #D1D1D1;
+	background: #F2F2F2;
+}
+
+.cat .cat_row {
+	background-color: #6BC26B;
+	padding: 7px 10px 7px 10px;
+}
+
+.cat .info_row {
+	padding: 5px 10px 0px 15px;
+	font-size: 10px;
+}
+
+.cat .forum_row {
+	background-color: #F2F2F2;
+	padding: 5px 10px 5px 0px;
+}
+
+.cat .padding {
+	padding-left: 15px;
+}
+
+.cat .tits {
+	color: #454545;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.cat .desc {
+	color: #91949B;
+}
+
+.cat .fopt {
+	width: 75px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	display:list-item;
+	list-style-type: none;
+}
+
+.cat .copt {
+	width: 75px;
+	text-align: center;
+}
+
+/**------------------------------------------**
+ *	Form Fields
+***------------------------------------------*/
+
+input {
+	outline 0;
+	border: 1px solid #D6D6D6;
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea {
+	outline 0;
+	border: 1px solid #D6D6D6;
+	padding: 1px;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.inputfocus {
+	transition: box-shadow 200ms;
+    box-shadow: 0 0 8px rgba(78, 182, 69, 0.8);
+    border: 1px solid rgba(78, 182, 69, 0.6);
+    outline: 0 none;
+}
+
+.onoff {
+	padding-left: 50px;
+}
+
+.onoff .radio {
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+.onoff .radio input {
+	width: 14px;
+	float: none;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: text-bottom;
+	margin-right: 2px;
+	
+}
+
+.onoff ul {   
+	word-spacing: -1em;  
+	letter-spacing: 0;
+	list-style: none;
+	display: table;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.onoff li
+{
+    display: -moz-inline-box;      
+    display: inline-block;  
+    word-spacing: 0;
+    padding: 5px 10px 5px 10px;  
+}
+
+.onoff .sel_yes {
+	color: #fff;
+	display: inline;
+	background: #07A896;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+
+}
+
+.onoff .sel_no {
+	color: #fff;
+	display: inline;
+	background: #F85558;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-left: -5px;
+}
+
+/**------------------------------------------**
+ *	Splash Page
+***------------------------------------------*/
+
+.splash {
+	margin-top: 100px;
+	background-color: #D2D7E1;
+	width: 600px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.splashin {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #BDC1CA;
+}
+
+.splashin a {
+	font-size: 12px;
+	color: #1A1A1A;
+}
+
+/*------------------------------------------
+	Sceditor stuff
+------------------------------------------*/
+
+.div-editor-margin {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.editor {
+	width: 900px;
+	height: 350px;
+}
+
+.editor_wait {
+	width: 100%;
+	height: 200px;
+	border-style: inset;
+    border-width: 1px;
+    border-color: 8e8e8e;
+}
+
+.editor-but {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.editor-hold {
+}
+
+/**------------------------------------------**
+ *	Admin Homepage
+***------------------------------------------*/
+
+.space {
+	margin-top: 10px;
+}
+
+.home-leftbar {
+	width: 24%;
+	margin-left: 3%;
+}
+
+.home-rightbar {
+	width:70%;
+}
+
+.home .modules {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	background-color: #F0F0F0;
+	margin-bottom: 10px;
+}
+
+.home .modules .mod-title {
+	font-weight: bold;
+}
+
+.home .modules span {
+	display: block;
+	margin-top: 3px;
+}
+
+.home .modules .item {
+	display: block;
+	color: #367E30;
+	text-decoration: none;
+	padding: 4px 2px 0px 5px;
+}
+
+.home .modules .item:hover {
+	color: #1E461B;
+}
+
+.home .modules .up-box {
+	font-size: 13px;
+	padding: 4px 5px 4px 5px;
+	border: 1px solid #F79797;
+	background: #FFE0E0;
+	margin: 2px 0 2px 0;
+}
+
+.home .orange {
+	width: 26%;
+	height: 90px;
+	padding: 1%;
+	background-color: #e67e22;
+	margin-left: 6%;
+	margin-right: 6%;
+	color: #fff;
+}
+
+.home .blue {
+	width: 26%;
+	height: 90px;
+	padding: 1%;
+	background-color: #3498db;
+	color: #fff;
+	margin-right: 2%;	
+}
+
+.home .stats {
+	width: 26%;
+	height: 90px;
+	background-color: #726086;
+	color: #fff;
+	padding: 1%;
+	margin-left: 2%;
+}
+
+.home .stats table {
+	width: 100%;
+	height: 90px;
+	text-align: center;
+}
+
+.home .stats td {
+	vertical-align: middle;
+}
+
+.home .stats .small {
+	font-size: 12px;
+}
+
+.noteholder {
+	margin: 10px auto 0 auto;
+}
+
+.noteholder textarea {
+	display: block;
+	width: 100%;
+	height: 150px;
+	background-color: #FFF2C9;
+	border: solid 1px #ddd;
+	overflow-y: scroll;
+	padding: 5px;
+}
+
+.notestat {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.new_users {
+	font-size: 24px;
+	color: #616664;
+	margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

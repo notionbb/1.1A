@@ -1,0 +1,1 @@
+<li><a target="_blank" href="{$display->vars['attach']['url']}">{$display->vars['attach']['name']}</a></li>

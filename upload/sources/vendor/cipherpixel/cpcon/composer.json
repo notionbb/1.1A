@@ -1,0 +1,12 @@
+{
+    "name": "cipherpixel/cpcon",
+	"autoload": {
+        "psr-4" : {
+            "CipherPixel\\cpcon\\" : "src/CipherPixel"
+        }
+    },
+    "require": {
+		"google/apiclient": "1.0.*@beta",
+		"facebook/php-sdk-v4" : "4.0.*"
+	}
+}

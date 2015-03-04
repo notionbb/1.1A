@@ -1,0 +1,1 @@
+<div class="caution"><b>Caution!</b> {$display->vars['cautionMsg']}</div>

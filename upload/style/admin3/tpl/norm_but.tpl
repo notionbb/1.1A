@@ -1,0 +1,1 @@
+<a href="{$display->vars['url']}" class="but-medium but-marg">{$display->vars['lang']}</a>
