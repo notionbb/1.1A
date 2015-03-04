@@ -2,9 +2,10 @@
 Style: 	forum2/style.css
 By:		michaelbenner.net
 For:	CP-Forum
-		cipherpixel.net
+		cipherpixel.net - Modified by notionbb.com
 Nb:		Used with normalize.css
 */
+
 
 body {
 	overflow-y: scroll;
@@ -88,8 +89,8 @@ a:hover {
 	Header bar and Menus
 ------------------------------------------*/
 .top {
-	border-top: 5px solid #000;
-	background: #2D2D2D;
+	background: #0066a2;
+        display: block;
 }
 
 .header-bar {
@@ -466,17 +467,20 @@ a:hover {
 }
 
 .avahuge {
-	border: 1px solid #CCCCCC;
-	width: 200px;
-	height: 200px;
-   	box-shadow: 0 8px 6px -6px #999999;
+    border: 1px solid #CCC;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 10px 8px -6px #999;
+    border-radius: 100%;
+    margin: 10px 0px 0px 25px;
 }
 
 .avalarge {
 	border: 1px solid #CCCCCC;
 	width: 150px;
 	height: 150px;
-   	box-shadow: 0 8px 6px -6px #999999;
+   	box-shadow: 0px 10px 8px -6px #999;
+        border-radius: 100%;
 }
 
 .avamedium {
@@ -484,6 +488,7 @@ a:hover {
 	width: 75px;
 	height: 75px;
    	box-shadow: 0 8px 6px -6px #999999;
+   	border-radius: 100%;
 }
 
 .avamedsma {
@@ -491,6 +496,7 @@ a:hover {
 	width: 50px;
 	height: 50px;
    	box-shadow: 0 8px 6px -6px #999999;
+   	border-radius: 100%;
 }
 
 .avasmall {
@@ -498,6 +504,7 @@ a:hover {
 	width: 30px;
 	height: 30px;
 	box-shadow: 0 3px 2px -2px #999999;
+	border-radius: 100%;
 }
 
 .nobord {
@@ -634,7 +641,7 @@ input:focus {
 }
 
 .grey {
-	background: #2D2D2D;
+	background: #0066a2;
 	color: #FFF;
 }
 
@@ -650,8 +657,24 @@ input:focus {
 }
 
 .light:hover {
-	border: 1px solid #2D2D2D;
+	border: 1px solid #0066a2;
 	color: #FFF;
+}
+
+.but-login {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 6px 9px 6px 9px;
+	border-radius: 3px;
+	margin: 0 3px 0 3px;
+	background: green;
+	border: 1px solid green;
+	color: #FFF;
+}
+
+.but-login:hover {
+	background: #198C19;
+	border: 1px solid #198C19;
 }
 
 .but-signup {
@@ -666,8 +689,8 @@ input:focus {
 }
 
 .but-signup:hover {
-	background: #767676;
-	border: 1px solid #767676;
+	background: #656565;
+	border: 1px solid #656565;
 }
 
 .red {
@@ -739,13 +762,6 @@ input:focus {
 	margin-bottom: -10px;
 }
 
-.but-login {
-	margin: 10px auto 0px auto;
-	display: inline-block;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
 .googlebut {
 	font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
 	font-size: 13px;
@@ -775,7 +791,7 @@ input:focus {
 	line-height: 32px;
 	color: #fff;
 	background: #3b5998;
-	padding-right: 20px;
+	/*padding-right: 20px;*/
 }
 
 .facebookbut:hover {
@@ -851,7 +867,7 @@ input:focus {
 }
 
 .cat .title {
-	background-color: #2D2D2D;
+	background-color: #0066a2;
 	color: #FFF;
 	padding: 0.6em;
 	border-top-left-radius: 5px;
@@ -1425,7 +1441,8 @@ input:focus {
 
 
 .member-tits {
-	font-size: 40px;
+	font-size: 35px;
+	margin: -6px;
 }
 
 .member-dets {
@@ -1659,6 +1676,7 @@ input:focus {
 	padding: 7px;
 	height: 50px;
 	width: 50px;
+	border-radius: 100%;
 }
 
 .feed .feedwhite .feedrow .avatar img {
@@ -1666,6 +1684,7 @@ input:focus {
 	max-height: 50px;
 	box-shadow: 0 3px 2px -2px #999999;
 	border: 1px solid #CCCCCC;
+	border-radius: 100%;
 }
 
 .feed .feedwhite .feedrow .text {
@@ -1752,8 +1771,8 @@ blockquote .quote_info a {
 }
 
 .post_youtube {
-	max-width: 560;
-	max-height: 315;
+	width: 55%;
+	height: 300px;
 	border: 0px;
 }
 
