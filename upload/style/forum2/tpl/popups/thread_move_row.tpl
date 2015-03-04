@@ -1,0 +1,1 @@
+<option value="{$display->vars['forum']['id']}">{$display->vars['forum']['name']}</option>
