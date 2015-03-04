@@ -154,7 +154,7 @@
 	</div>
 	
 	<div class="copyright">
-		{$$app['sexyname']} {$$app['ver']} by <a href="http://cipherpixel.net" target="_blank">CiperPixel</a>
+		Powered by <a href="http://notionbb.com" target="_blank">NotionBB</a> {$lang('version', 'version')}<br />Successor of <a href="http://cipherpixel.net">CipherPixel</a>
 	</div>
 	
 	<!-- Make Sure this image gets preloaded -->
