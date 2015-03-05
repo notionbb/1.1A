@@ -1,10 +1,10 @@
 <?php
 
 	/*===================================================
-	//	CipherPixel © All Rights Reserved
+	//	CipherPixel Â© All Rights Reserved
 	//---------------------------------------------------
 	//	CP-Core
-	//		by cipherpixel.net
+	//		by cipherpixel.net - Modified by: notionbb.com
 	//---------------------------------------------------
 	//	File created: March 29, 2014  =)
 	//=================================================*/
