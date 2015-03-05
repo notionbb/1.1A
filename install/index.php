@@ -1,7 +1,7 @@
 <?php
 
 	/*===================================================
-	//	CipherPixel © All Rights Reserved
+	//	CipherPixel Â© All Rights Reserved
 	//---------------------------------------------------
 	//	CP-Installer
 	//		by cipherpixel.net
@@ -139,7 +139,7 @@
 		</div>
 		
 		<div style="clear: both; width: 790px; color: #000; background: #E1E7EA; padding: 5px; text-align: center;">
-			©<a style="color: #000;" href="http://cipherpixel.net">CipherPixel</a>
+			Powered by <a href="http://notionbb.com" target="_blank">NotionBB</a> {$lang('version', 'version')}<br />Successor of <a href="http://cipherpixel.net">CipherPixel</a>
 		</div>
 	
 	</div>
