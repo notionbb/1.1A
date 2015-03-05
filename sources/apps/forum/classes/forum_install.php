@@ -12,11 +12,11 @@ class app_install_forum {
 	public function info()
 	{
 		return array(
-			'unique_id'	=> 'net.cipherpixel.forum',
+			'unique_id'	=> 'com.notionbb.forum',
 			'name' 		=> 'forum',
 			'sexyname' 	=> 'CP-Forum',
 			'desc' 		=> '',
-			'ver'  		=> '1.0.0.b',
+			'ver'  		=> '1.1A',
 		);
 	}
 	
@@ -37,7 +37,7 @@ class app_install_forum {
 					'text_id' => 'blogs',
 					'order' => '2',
 					'enabled' => '1',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'subcat' => 'forum',
 					'name' => 'Blogs',
 					'desc' => 'Manage user blogs',
@@ -47,7 +47,7 @@ class app_install_forum {
 					'text_id' => 'f_t_ps',
 					'order' => '1',
 					'enabled' => '1',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'subcat' => 'forum',
 					'name' => 'Forums, Threads and Posts',
 					'desc' => 'Change how content is displayed and created',
@@ -57,7 +57,7 @@ class app_install_forum {
 					'text_id' => 'google_api',
 					'order' => '2',
 					'enabled' => '1',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'subcat' => 'busers',
 					'name' => 'Google API',
 					'desc' => 'Manage Google Login and API Options',
@@ -70,7 +70,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'boardOnline',
 					'title' => 'Is the board online?',
 					'desc' => 'Use this function to turn the board offline for maintenance or another reason',
@@ -84,7 +84,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'offlineMsg',
 					'title' => 'Offline Message',
 					'desc' => 'Text to show visitors if the board is set offline (above) - leave blank to show a default message',
@@ -98,7 +98,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'lockedText',
 					'title' => 'Locked text',
 					'desc' => 'Prefix to thread name if the thread is locked',
@@ -112,7 +112,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'pinnedText',
 					'title' => 'Pinned Text',
 					'desc' => 'Prefix to thread name is the thread is pinned',
@@ -126,7 +126,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'postsPerPage',
 					'title' => 'Posts per Page',
 					'desc' => 'How many posts to display per page',
@@ -140,7 +140,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'forum_requires_display_name',
 					'title' => 'Require Display Name',
 					'desc' => 'When logged in from a social network (ie Google) are users still required to set a custom display name?',
@@ -154,7 +154,7 @@ class app_install_forum {
 					'catId' => 'blogs',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'enableBlogs',
 					'title' => 'Enable Blogs',
 					'desc' => 'Decide whether to turn the blog system on or off',
@@ -168,7 +168,7 @@ class app_install_forum {
 					'catId' => 'blogs',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'blogMenuText',
 					'title' => 'Menubar Text',
 					'desc' => 'Text to show on the menubar',
@@ -182,7 +182,7 @@ class app_install_forum {
 					'catId' => 'blogs',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'commentsOn',
 					'title' => 'Turn Comments On',
 					'desc' => 'Toggle blog comments on or off',
@@ -196,7 +196,7 @@ class app_install_forum {
 					'catId' => 'blogs',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'blogComPerPage',
 					'title' => 'Comments per page',
 					'desc' => 'Enter how many blog comments to display per page',
@@ -210,7 +210,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'newsForum',
 					'title' => 'News Forum',
 					'desc' => 'Enter the news forum. Leave blank to turn off.',
@@ -224,7 +224,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'threadsPerPage',
 					'title' => 'Threads per page',
 					'desc' => 'How many threads to display in each page of a forum?',
@@ -238,7 +238,7 @@ class app_install_forum {
 					'catId' => 'f_t_ps',
 					'tab' => '',
 					'subcat' => '',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'arrayTitle' => 'threadTitlePreviewLen',
 					'title' => 'Thread Title Preview Length',
 					'desc' => 'Set the amount of characters a thread title has before being trimmed ',
@@ -252,7 +252,7 @@ class app_install_forum {
 	
 			'groupsettings' => array(
 				'0' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => '',
 					'subcat' => 'access',
@@ -265,7 +265,7 @@ class app_install_forum {
 					'valueDef' => '1',
 				),
 				'1' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => '',
 					'subcat' => 'access',
@@ -278,7 +278,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'2' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => '',
 					'subcat' => '',
@@ -291,7 +291,7 @@ class app_install_forum {
 					'valueDef' => '1',
 				),
 				'3' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'global',
@@ -304,7 +304,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'4' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -317,7 +317,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'5' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'ownopts',
 					'subcat' => 'own',
@@ -330,7 +330,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'6' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -343,7 +343,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'7' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -356,7 +356,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'8' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -369,7 +369,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'9' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -382,7 +382,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'10' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'ownopts',
 					'subcat' => 'own',
@@ -395,7 +395,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'11' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -408,7 +408,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'12' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => '',
 					'subcat' => 'gprofile',
@@ -421,7 +421,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'13' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -434,7 +434,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'14' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'ownopts',
 					'subcat' => 'own',
@@ -447,7 +447,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'15' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -460,7 +460,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'16' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'ownopts',
 					'subcat' => 'own',
@@ -473,7 +473,7 @@ class app_install_forum {
 					'valueDef' => '0',
 				),
 				'17' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'ownopts',
 					'subcat' => 'own',
@@ -486,7 +486,7 @@ class app_install_forum {
 					'valueDef' => '1',
 				),
 				'18' => array(
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'order' => '0',
 					'tab' => 'modopts',
 					'subcat' => 'mod',
@@ -502,7 +502,7 @@ class app_install_forum {
 	
 			'modules' => array(
 				'0' => array(
-					'unique_id' => 'net.cipherpixel.forum',
+					'unique_id' => 'com.notionbb.forum',
 					'status' => '1',
 					'name' => 'forum',
 					'sexyname' => 'CP-Forum',
@@ -515,7 +515,7 @@ class app_install_forum {
 			'tools' => array(
 				'0' => array(
 					'enabled' => '1',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'name' => 'Fix last poster',
 					'desc' => 'Updates last post user and last post time for every forum',
 					'task' => 'lastPosts',
@@ -523,7 +523,7 @@ class app_install_forum {
 				),
 				'1' => array(
 					'enabled' => '1',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'name' => 'Fix Forum permission rows',
 					'desc' => 'Ensures each forum row has a matching permission row',
 					'task' => 'forumToPerm',
@@ -531,7 +531,7 @@ class app_install_forum {
 				),
 				'2' => array(
 					'enabled' => '1',
-					'modId' => 'net.cipherpixel.forum',
+					'modId' => 'com.notionbb.forum',
 					'name' => 'Count Posts',
 					'desc' => 'Counts Posts',
 					'task' => 'countPosts',
@@ -612,7 +612,7 @@ class app_install_forum {
 
 This is a post, it is located in a thread, which is located in a forum.
 
-Please visit&nbsp;[url=http://cipherpixel.net]cipherpixel[/url]\\\\\\\'s forums for further help and support, or if you wish to place feedback about CP-Forum.
+Please visit&nbsp;[url=http://notionbb.com]NotionBB[/url]\\\\\\\'s forums for further help and support, or if you wish to place feedback about CP-Forum.
 
 Enjoy your day!',
 				),
@@ -633,8 +633,8 @@ Enjoy your day!',
 				'0' => array(
 					'id' => 'forum2',
 					'sexyname' => 'Forum 2.0',
-					'dev' => 'CipherPixel',
-					'devlink' => 'http://cipherpixel.net',
+					'dev' => 'NotionBB',
+					'devlink' => 'http://notionbb.com',
 					'public' => '1',
 					'p_apps' => ',forum,',
 				),
