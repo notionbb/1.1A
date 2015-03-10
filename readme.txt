@@ -1,8 +1,8 @@
 /*===================================================
-//	CipherPixel © All Rights Reserved
+//	CipherPixel Â© All Rights Reserved
 //---------------------------------------------------
 //	CP-Core and CP-Admin
-//		by cipherpixel.net
+//		by cipherpixel.net - Modified by notionbb.com
 //---------------------------------------------------
 //	@author		Michael Benner
 //	@date		December 02, 2014
@@ -35,7 +35,7 @@ Tested down to MySQL 5.3. Functional on lower versions.
 // Install Instructions
 //-----------------------------------
 
-~~~ If you are subject to unexpected behaviour or errors, please report them: cipherpixel.net/forum ~~~
+~~~ If you are subject to unexpected behaviour or errors, please report them: notionbb.com/forum ~~~
 
 1.	Upload the contents of the "install" folder to your webserver
 
@@ -44,4 +44,4 @@ Tested down to MySQL 5.3. Functional on lower versions.
 	
 3.	Follow the install instructions
 
-4. For further support visit http://cipherpixel.net/c/contents or http://cipherpixel.net/forum
+4. For further support visit http://notionbb.com/contents or http://notionbb.com/forum
