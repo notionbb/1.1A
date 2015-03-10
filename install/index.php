@@ -4,7 +4,7 @@
 	//	CipherPixel © All Rights Reserved
 	//---------------------------------------------------
 	//	CP-Installer
-	//		by cipherpixel.net
+	//		by cipherpixel.net - Modified by: notionbb.com
 	//---------------------------------------------------
 	//	File created: November 06, 2014 
 	//=================================================*/
