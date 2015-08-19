@@ -1,19 +1,18 @@
 ===================================================
-	CipherPixel © All Rights Reserved
+	NotionBB © All Rights Reserved
 ---------------------------------------------------
-        CP-Core and CP-Admin
-	by cipherpixel.net - Modified by: notionbb.com
+	NBB-Core and NBB-Admin
+		by notionbb.com
 ---------------------------------------------------
-	@author		Michael Benner
-	@date		December 02, 2014
-=================================================
+	@author		NotionBB Staff
+	@date		February 01, 2015
+===================================================
 
 -----------------------------------
  License
 -----------------------------------
 
-Copyright 2014 Michael Benner
-Modified by: NotionBB
+Copyright 2014 NotionBB Staff
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
