@@ -1,7 +1,7 @@
 <?php
 
 	//===================================================
-	//	Cipher Pixel Board © All Rights Reserved
+	//	Cipher Pixel Board Â© All Rights Reserved
 	//---------------------------------------------------
 	//	CP-Core
 	//		by michaelbenner.net
@@ -12,7 +12,7 @@
 class admin_home extends controller {
 	
 	/**
-	** Array of information from CipherPixel
+	** Array of information from NotionBB
 	** 
 	** @var		array
 	*/
@@ -23,7 +23,7 @@ class admin_home extends controller {
 	** 
 	** @var		string
 	*/
-	public $cp_url = 'http://cipherpixel.net/cpext/uptodate2.php';
+	public $cp_url = 'http://notionbb.com/uptodate2.php';
 	
 	public function main()
 	{
