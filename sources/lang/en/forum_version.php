@@ -8,7 +8,7 @@
                 /**
 		** Forum Version
 		*/
-                'version'		=> '0.5A',
+                'version'		=> '1.1A',
 	
 	);
 
