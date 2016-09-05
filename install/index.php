@@ -139,7 +139,7 @@
 		</div>
 		
 		<div style="clear: both; width: 790px; color: #000; background: #E1E7EA; padding: 5px; text-align: center;">
-			Powered by <a href="http://notionbb.com" target="_blank">NotionBB</a> {$lang('version', 'version')}<br />Successor of <a href="http://cipherpixel.net">CipherPixel</a>
+			Powered by <a href="http://notionbb.com" target="_blank">NotionBB</a> {$lang('version', 'version')}
 		</div>
 	
 	</div>
