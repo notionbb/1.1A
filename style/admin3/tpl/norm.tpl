@@ -17,7 +17,7 @@
 	<link href="{$display->vars['lprefix']}js/minified/themes/square.min.css" rel="stylesheet" type="text/css" media="all">
 	
 	<meta charset="utf-8">
-	<meta name="description" content="CP-Forum is free community software. With features to match expensive alternatives and a passionate support team CP-Forum&#039;s simplicity and ease of use will be a joy.">
+	<meta name="description" content="NBB-Forum is free community software. With features to match expensive alternatives and a passionate support team CP-Forum&#039;s simplicity and ease of use will be a joy.">
 	<meta name="robots" content="index, follow">
 	<meta name="keywords" content="">
 	
@@ -29,7 +29,7 @@
 	
 
 	<!---<div class="header">
-		<span class="cptitle">CipherPixel</span>
+		<span class="cptitle">NotionBB</span>
 		<div class="right userinfo">
 			Logged in as: <b>{$logged->cur['displayName']}</b> <i>({$logged->cur['gName']})</i> | Q: {$db->qCount};
 		</div>
