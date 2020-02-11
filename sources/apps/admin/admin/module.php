@@ -1,12 +1,12 @@
 <?php
 
 	/*===================================================
-	//	CipherPixel © All Rights Reserved
+	//	NotionBB Â© All Rights Reserved
 	//---------------------------------------------------
-	//	CP-Core
-	//		by cipherpixel.net
+	//	NBB-Core
+	//		by notionbb.com
 	//---------------------------------------------------
-	//	File created: September 09, 2014 
+	//	File Updated - 2-11-2020
 	//=================================================*/
 
 class admin_module extends controller {
