@@ -1,15 +1,12 @@
 <?php
 
 	/*===================================================
-	//	CipherPixel © All Rights Reserved
+	//	NotionBB Â© All Rights Reserved
 	//---------------------------------------------------
-	//	CP-Admin
-	//		by cipherpixel.net
+	//	NBB-Admin
+	//		by notionbb.com
 	//---------------------------------------------------
-	//	@author		Michael Benner
-	//	@date		November 11, 2014 
-	//---------------------------------------------------
-	//	Object that creates an admin form
+	//	File Updated - 2-11-2020
 	//=================================================*/
 
 class form {
