@@ -14,9 +14,9 @@ class app_install_admin {
 		return array(
 			'unique_id'	=> 'com.notionbb.admin',
 			'name' 		=> 'admin',
-			'sexyname' 	=> 'CP-Core',
+			'sexyname' 	=> 'NBB-Core',
 			'desc' 		=> '',
-			'ver'  		=> '1.1A',
+			'ver'  		=> '1.2A',
 		);
 	}
 	
@@ -903,7 +903,7 @@ http://example.com/index.php/forum/login/facebook',
 			'skins' => array(
 				'0' => array(
 					'id' => 'admin3',
-					'sexyname' => 'Admin 3.0',
+					'sexyname' => 'Admin 3.1',
 					'dev' => 'NotionBB',
 					'devlink' => 'http://notionbb.com',
 					'public' => '1',
