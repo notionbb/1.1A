@@ -1,12 +1,12 @@
 <?php
 
 	/*===================================================
-	//	CipherPixel © All Rights Reserved
+	//	NotionBB Â© All Rights Reserved
 	//---------------------------------------------------
-	//	CP-Admin
-	//		by cipherpixel.net
+	//	NBB-Core
+	//		by notionbb.com
 	//---------------------------------------------------
-	//	File created: October 22, 2014 
+	//	File Updated - 2-11-2020
 	//=================================================*/
 	
 	/**
